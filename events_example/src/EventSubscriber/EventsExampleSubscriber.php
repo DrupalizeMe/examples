@@ -31,7 +31,7 @@ class EventsExampleSubscriber implements EventSubscriberInterface {
     // method on this class that you would like called whenever the event is
     // triggered. A single class can subscribe to any number of events. For
     // organization purposes it's a good idea to create a new class for each
-    // unique task/concept rather than just creating a catch all class for all
+    // unique task/concept rather than just creating a catch-all class for all
     // event subscriptions.
     //
     // See EventSubscriberInterface::getSubscribedEvents() for an explanation
@@ -39,10 +39,11 @@ class EventsExampleSubscriber implements EventSubscriberInterface {
     //
     // The array key is the name of the event your want to subscribe to. Best
     // practice is to use the constant that represents the event as defined by
-    // the code responsible for dispatching the event. This way if for example
-    // the string name of an event changes your code will continue to work.
-    // You can get a list of event constants for all events triggered by core
-    // here https://api.drupal.org/api/drupal/core%21core.api.php/group/events/8.2.x.
+    // the code responsible for dispatching the event. This way, if, for
+    // example, the string name of an event changes your code will continue to
+    // work. You can get a list of event constants for all events triggered by
+    // core here:
+    // https://api.drupal.org/api/drupal/core%21core.api.php/group/events/8.2.x.
     //
     // Since any module can define and trigger new events there may be
     // additional events available in your application. Look for classes with

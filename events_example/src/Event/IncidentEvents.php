@@ -11,13 +11,13 @@ use Drupal\Core\Config\ConfigCrudEvent;
  * as allowing the event dispatcher to use the constants instead of hard coding
  * a string.
  *
- * In this example we're defining one new event;
+ * In this example we're defining one new event:
  * 'events_example.new_incident_report'. This event will be dispatched by the
  * form controller \Drupal\events_example\Form\EventsExampleForm whenever a new
- * incident is reported. If you're application dispatches more than one event
+ * incident is reported. If your application dispatches more than one event
  * you can use a single class to document multiple events. Just add a new
- * constant for each. Group like related events together with a single class,
- * define another class for unrelated events.
+ * constant for each. Group related events together with a single class, define
+ * another class for unrelated events.
  *
  * The docblock for each event name should contain a description of when, and
  * under what conditions, the event is triggered. A module developer should be
